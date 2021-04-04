@@ -2,7 +2,6 @@
 import telebot
 from telebot import types
 
-print(os.environ.get('BOT_TOKEN', "WWW"))
 bot = telebot.TeleBot('1648917738:AAG4daDffNF37NxPnkPLqVH06d1H4JQ_Tks')
 menus = ['💸Cashback', '🎉Tadbirlar', '✍️Fikr bildirish', "ℹ️Ma'lumot"]
 def start_button():
