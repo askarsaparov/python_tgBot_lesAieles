@@ -1,5 +1,4 @@
 # python_tgBot_lesAiles
-import os
 import telebot
 from telebot import types
 
