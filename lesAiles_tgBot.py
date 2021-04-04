@@ -2,7 +2,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('1648917738:AAG4daDffNF37NxPnkPLqVH06d1H4JQ_Tks')
+bot = telebot.TeleBot(os.environ.get("BOT_TOKEN", "WWW"))
 menus = ['💸Cashback', '🎉Tadbirlar', '✍️Fikr bildirish', "ℹ️Ma'lumot"]
 def start_button():
     markup = types.ReplyKeyboardMarkup(row_width=2)
